@@ -1,0 +1,8 @@
+b=[]
+for i in range(100,1000):
+    for j in range(100,1000):
+        a=i*j
+        if(str(a)==str(a)[::-1]):
+            b.append(a)
+
+print(max(b))
