@@ -1,0 +1,11 @@
+n = 600851475143
+while True:
+    c = 1
+    for i in range (2, n):
+        if n % i == 0:
+            c = 0
+            n = int(n/i)
+            break
+    if c == 1:
+        break
+print(n)
