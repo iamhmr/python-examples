@@ -1,2 +1,2 @@
-# Python programming Examples
+# Python programming examples
 Project Euler Soru Çözümlerı
